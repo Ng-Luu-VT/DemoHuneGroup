@@ -11,7 +11,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp">
+        android:layout_marginTop="10dp">
 
         <ImageView
             android:layout_width="match_parent"
@@ -41,6 +41,7 @@
         android:layout_height="wrap_content">
 
         <TextView
+            android:textStyle="bold"
             android:textColor="#4d9cd1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -50,7 +51,8 @@
             tools:ignore="RtlHardcoded" />
 
         <TextView
-            android:textColor="#4d9cd1"
+            android:textStyle="bold"
+            android:textColor="#c6c3c4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
@@ -69,11 +71,13 @@
             android:layout_height="wrap_content"
             android:hint="Số điện thoại"/>
         <EditText
+            android:drawableRight="@drawable/ic_visibility_password"
             android:textSize="15sp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Mật khẩu"/>
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"/>
         <TextView
             android:layout_marginTop="25dp"
             android:layout_width="match_parent"
@@ -86,8 +90,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:orientation="vertical"
-        android:background="#45a0d9"
-        android:padding="5dp">
+        android:padding="5dp"
+        android:background="@drawable/tv_login_rectangle">
         <TextView
             android:textColor="#FFFFFF"
             android:layout_gravity="center"
@@ -97,17 +101,19 @@
             android:textSize="20sp"/>
     </LinearLayout>
     <LinearLayout
+        android:background="@drawable/tv_login_rectangle_facebook"
         android:padding="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:orientation="vertical">
+
         <TextView
-            android:textColor="#7ba2be"
-            android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:text="Đăng nhập tài khoản Facebook"/>
+            android:layout_gravity="center"
+            android:text="Đăng nhập tài khoản Facebook"
+            android:textColor="#7ba2be"
+            android:textSize="20sp" />
     </LinearLayout>
 </LinearLayout>
