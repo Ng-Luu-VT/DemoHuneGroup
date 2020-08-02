@@ -23,7 +23,7 @@ import adapter.MenuPagerAdapter;
 import item.ItemAdvertisement;
 import iterface.ItemAdvertisementInterface;
 
-public class MenuActivity extends AppCompatActivity{
+public class MenuActivity extends AppCompatActivity {
 
 
     @Override
@@ -36,17 +36,16 @@ public class MenuActivity extends AppCompatActivity{
     }
 
 
-
     private void viewpager() {
         ViewPager2 viewPager2 = findViewById(R.id.actMenu_viewPager2);
         viewPager2.setAdapter(new MenuPagerAdapter(this));
-
+        viewPager2.setUserInputEnabled(false);
         final TabLayout tabLayout = findViewById(R.id.actMenu_tabLayout);
         TabLayoutMediator tabLayoutMediator = new TabLayoutMediator(
                 tabLayout, viewPager2, new TabLayoutMediator.TabConfigurationStrategy() {
             @Override
             public void onConfigureTab(@NonNull TabLayout.Tab tab, int position) {
-                switch (position){
+                switch (position) {
                     case 0:
                         tab.setText("Trang chủ");
                         tab.setIcon(R.drawable.ic_home);

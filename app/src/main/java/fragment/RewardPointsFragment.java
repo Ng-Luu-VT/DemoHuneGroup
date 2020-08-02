@@ -48,6 +48,7 @@ public class RewardPointsFragment extends Fragment {
         ViewPager2 viewPager2 = view.findViewById(R.id.actMenu_fragReward_viewPager2);
         viewPager2.setAdapter(new RewardPointAdapter(this));
         final TabLayout tabLayout = view.findViewById(R.id.actMenu_fragReward_tabLayout);
+
         TabLayoutMediator tabLayoutMediator = new TabLayoutMediator(tabLayout, viewPager2, new TabLayoutMediator.TabConfigurationStrategy() {
             @Override
             public void onConfigureTab(@NonNull TabLayout.Tab tab, int position) {
