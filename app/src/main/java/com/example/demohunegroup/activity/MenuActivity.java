@@ -38,7 +38,7 @@ public class MenuActivity extends AppCompatActivity{
 
 
     private void viewpager() {
-        ViewPager2 viewPager2 = findViewById(R.id.viewPager2);
+        ViewPager2 viewPager2 = findViewById(R.id.actMenu_viewPager2);
         viewPager2.setAdapter(new MenuPagerAdapter(this));
 
         final TabLayout tabLayout = findViewById(R.id.actMenu_tabLayout);
@@ -73,14 +73,14 @@ public class MenuActivity extends AppCompatActivity{
         );
         tabLayoutMediator.attach();
 
-        viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
-            @Override
-            public void onPageSelected(int position) {
-                super.onPageSelected(position);
-                BadgeDrawable badgeDrawable = tabLayout.getTabAt(position).getOrCreateBadge();
-                badgeDrawable.setVisible(false);
-            }
-        });
+//        viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
+//            @Override
+//            public void onPageSelected(int position) {
+//                super.onPageSelected(position);
+//                BadgeDrawable badgeDrawable = tabLayout.getTabAt(position).getOrCreateBadge();
+//                badgeDrawable.setVisible(false);
+//            }
+//        });
     }
 
 

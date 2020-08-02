@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/fragRedeem_linearLayoutTotal"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+
+        android:background="@drawable/tv_home_item"
+        android:id="@+id/fragRedeem_ivItem"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_money" />
+
+    <FrameLayout
+        android:layout_marginStart="10dp"
+        android:id="@+id/fragRedeem_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:id="@+id/fragRedeem_tvTitle"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="top"
+            android:layout_marginEnd="10dp"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Free 1 Chiếu ngủ văn phòng  180 x100 (cm)"
+            android:textStyle="bold"
+            />
+        <FrameLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_gravity="start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ngày hết hạn: ">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/fragRedeem_tvTime"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ngày hết hạn: 31-12-2020">
+
+                    </TextView>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/fragRedeem_tvPoint"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1500 Point"
+                    android:textStyle="bold">
+
+                </TextView>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/fragRedeem_tvBuy"
+                android:textColor="@color/colorWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MUA"
+                android:layout_gravity="end"
+                android:background="@drawable/tv_button_buy"
+                />
+        </FrameLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

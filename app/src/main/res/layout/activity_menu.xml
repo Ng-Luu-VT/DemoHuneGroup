@@ -6,14 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".activity.MenuActivity">
 
-    <View
-        android:textAllCaps="false"
-        android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="3dp"
-        android:background="@color/colorDivider"
-        app:layout_constraintTop_toTopOf="@+id/actMenu_tabLayout" />
-
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/actMenu_tabLayout"
         android:layout_width="match_parent"
@@ -23,14 +15,13 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:tabIndicatorHeight="3dp"
         app:tabMode="fixed"
-        android:textAllCaps="false"
-        app:tabTextColor="#000000"
+        app:tabTextAppearance="@style/CustomTabText"
         >
 
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/viewPager2"
+        android:id="@+id/actMenu_viewPager2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/actMenu_tabLayout"
