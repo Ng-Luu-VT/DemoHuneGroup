@@ -1,4 +1,4 @@
-package adapter;
+package com.example.demohunegroup.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,9 +14,8 @@ import com.example.demohunegroup.R;
 
 import java.util.ArrayList;
 
-import item.ItemAdvertisement;
-import item.ItemRedeemPoint;
-import iterface.ItemRedeemPointInterface;
+import com.example.demohunegroup.item.ItemRedeemPoint;
+import com.example.demohunegroup.iterface.ItemRedeemPointInterface;
 
 public class RedeemCouponAdapter extends RecyclerView.Adapter<RedeemCouponAdapter.NewViewHolder> {
     public RedeemCouponAdapter(ArrayList<ItemRedeemPoint> mData) {

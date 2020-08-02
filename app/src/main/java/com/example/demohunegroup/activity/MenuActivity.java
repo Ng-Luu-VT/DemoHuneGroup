@@ -2,26 +2,15 @@ package com.example.demohunegroup.activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.widget.ViewPager2;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.os.CancellationSignal;
-import android.view.View;
 
 import com.example.demohunegroup.R;
-import com.google.android.material.badge.BadgeDrawable;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
-import java.util.ArrayList;
-
-import adapter.AdvertisementAdapter;
-import adapter.MenuPagerAdapter;
-import item.ItemAdvertisement;
-import iterface.ItemAdvertisementInterface;
+import com.example.demohunegroup.adapter.MenuPagerAdapter;
 
 public class MenuActivity extends AppCompatActivity {
 

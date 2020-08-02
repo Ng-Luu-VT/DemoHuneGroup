@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="fragment.RewardPointsFragment">
+    tools:context=".fragment.RewardPointsFragment">
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/actMenu_fragReward_tabLayout"
             android:layout_width="match_parent"

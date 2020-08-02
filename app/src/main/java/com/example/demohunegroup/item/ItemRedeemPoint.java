@@ -1,4 +1,4 @@
-package item;
+package com.example.demohunegroup.item;
 
 public class ItemRedeemPoint {
     private String tvTitle;

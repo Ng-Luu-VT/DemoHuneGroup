@@ -1,18 +1,15 @@
-package adapter;
-
-import android.view.ViewGroup;
+package com.example.demohunegroup.adapter;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
-import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
-import fragment.AccountFragment;
-import fragment.ChatFragment;
-import fragment.HomePageFragment;
-import fragment.NotificationFragment;
-import fragment.RewardPointsFragment;
+import com.example.demohunegroup.fragment.AccountFragment;
+import com.example.demohunegroup.fragment.ChatFragment;
+import com.example.demohunegroup.fragment.HomePageFragment;
+import com.example.demohunegroup.fragment.NotificationFragment;
+import com.example.demohunegroup.fragment.RewardPointsFragment;
 
 public class MenuPagerAdapter extends FragmentStateAdapter {
     public MenuPagerAdapter(@NonNull FragmentActivity fragmentActivity) {

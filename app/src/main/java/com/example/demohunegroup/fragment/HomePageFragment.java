@@ -1,4 +1,4 @@
-package fragment;
+package com.example.demohunegroup.fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,9 +16,9 @@ import com.example.demohunegroup.activity.MainActivity;
 
 import java.util.ArrayList;
 
-import adapter.AdvertisementAdapter;
-import item.ItemAdvertisement;
-import iterface.ItemAdvertisementInterface;
+import com.example.demohunegroup.adapter.AdvertisementAdapter;
+import com.example.demohunegroup.item.ItemAdvertisement;
+import com.example.demohunegroup.iterface.ItemAdvertisementInterface;
 
 /**
  * A simple {@link Fragment} subclass.

@@ -1,4 +1,4 @@
-package item;
+package com.example.demohunegroup.item;
 
 public class ItemAdvertisement {
     private int ivAdvertisement;

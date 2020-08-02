@@ -1,18 +1,13 @@
-package adapter;
+package com.example.demohunegroup.adapter;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
-import fragment.AccountFragment;
-import fragment.ChatFragment;
-import fragment.HomePageFragment;
-import fragment.MyCouponFragment;
-import fragment.NotificationFragment;
-import fragment.PointsFragment;
-import fragment.RedeemCouponFragment;
-import fragment.RewardPointsFragment;
+import com.example.demohunegroup.fragment.MyCouponFragment;
+import com.example.demohunegroup.fragment.PointsFragment;
+import com.example.demohunegroup.fragment.RedeemCouponFragment;
+import com.example.demohunegroup.fragment.RewardPointsFragment;
 
 public class RewardPointAdapter extends FragmentStateAdapter {
     public RewardPointAdapter(@NonNull RewardPointsFragment fragmentActivity) {

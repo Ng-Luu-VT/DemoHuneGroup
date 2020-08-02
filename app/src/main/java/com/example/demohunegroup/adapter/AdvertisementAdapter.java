@@ -1,4 +1,4 @@
-package adapter;
+package com.example.demohunegroup.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,8 +12,8 @@ import com.example.demohunegroup.R;
 
 import java.util.ArrayList;
 
-import item.ItemAdvertisement;
-import iterface.ItemAdvertisementInterface;
+import com.example.demohunegroup.item.ItemAdvertisement;
+import com.example.demohunegroup.iterface.ItemAdvertisementInterface;
 
 public class AdvertisementAdapter extends RecyclerView.Adapter<AdvertisementAdapter.NewViewHolder> {
 

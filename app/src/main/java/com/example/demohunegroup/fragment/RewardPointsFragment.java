@@ -1,4 +1,4 @@
-package fragment;
+package com.example.demohunegroup.fragment;
 
 import android.os.Bundle;
 
@@ -9,16 +9,12 @@ import androidx.viewpager2.widget.ViewPager2;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TableLayout;
 
 import com.example.demohunegroup.R;
-import com.google.android.material.badge.BadgeDrawable;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
-import java.util.Objects;
-
-import adapter.RewardPointAdapter;
+import com.example.demohunegroup.adapter.RewardPointAdapter;
 
 /**
  * A simple {@link Fragment} subclass.

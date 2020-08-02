@@ -6,11 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import com.example.demohunegroup.R;
-
-import adapter.MenuPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
     private LinearLayout linearLogin;

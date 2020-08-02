@@ -1,4 +1,4 @@
-package fragment;
+package com.example.demohunegroup.fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,9 +16,9 @@ import com.example.demohunegroup.activity.MainActivity;
 
 import java.util.ArrayList;
 
-import adapter.RedeemCouponAdapter;
-import item.ItemRedeemPoint;
-import iterface.ItemRedeemPointInterface;
+import com.example.demohunegroup.adapter.RedeemCouponAdapter;
+import com.example.demohunegroup.item.ItemRedeemPoint;
+import com.example.demohunegroup.iterface.ItemRedeemPointInterface;
 
 public class RedeemCouponFragment extends Fragment implements ItemRedeemPointInterface {
     private RecyclerView rvRedeem;
