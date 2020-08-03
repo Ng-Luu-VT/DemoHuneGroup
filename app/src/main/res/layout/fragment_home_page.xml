@@ -5,7 +5,7 @@
     tools:context=".fragment.HomePageFragment">
     <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_margin="15dp"
             android:orientation="vertical">
 
@@ -40,322 +40,30 @@
                     android:layout_weight="1"
                     android:src="@drawable/ic_home" />
             </LinearLayout>
-
-            <LinearLayout
-                android:layout_marginTop="30dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                >
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:orientation="horizontal"
-                    android:weightSum="3"
-                    >
-
-                    <FrameLayout
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/tv_home_top"
-                        android:orientation="vertical"
-                        android:padding="15dp">
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center|top"
-                            android:background="@drawable/tv_home_item"
-                            android:padding="10dp">
-
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/ic_home"
-
-                                />
-                        </LinearLayout>
-
-                        <TextView
-                            android:textSize="12sp"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom|center"
-                            android:text="Việc làm"
-                            android:textColor="#d2d2d2" />
-
-
-                    </FrameLayout>
-
-                    <FrameLayout
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="15dp"
-                        android:background="@drawable/tv_home_top"
-                        >
-                        <LinearLayout
-                            android:background="@drawable/tv_home_item"
-                            android:padding="10dp"
-                            android:layout_gravity="center|top"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/ic_home"
-
-                                />
-                        </LinearLayout>
-
-                        <TextView
-                            android:textSize="12sp"
-                            android:textColor="#d2d2d2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom|center"
-                            android:text="Xe cộ" />
-
-
-                    </FrameLayout>
-                    <FrameLayout
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="15dp"
-                        android:background="@drawable/tv_home_top"
-                        >
-                        <LinearLayout
-                            android:background="@drawable/tv_home_item"
-                            android:padding="10dp"
-                            android:layout_gravity="center|top"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/ic_home"
-
-                                />
-                        </LinearLayout>
-
-                        <TextView
-                            android:textSize="12sp"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom|center"
-                            android:text="Bất động sản"
-                            android:textColor="#d2d2d2" />
-
-
-                    </FrameLayout>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:orientation="horizontal"
-                    android:weightSum="3"
-                    >
-                    <FrameLayout
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="15dp"
-                        android:background="@drawable/tv_home_top"
-                        >
-                        <LinearLayout
-                            android:background="@drawable/tv_home_item"
-                            android:padding="10dp"
-                            android:layout_gravity="center|top"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/ic_home"
-
-                                />
-                        </LinearLayout>
-
-                        <TextView
-                            android:textSize="12sp"
-                            android:textColor="#d2d2d2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom|center"
-                            android:text="Làm đẹp" />
-
-
-                    </FrameLayout>
-                    <FrameLayout
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="15dp"
-                        android:background="@drawable/tv_home_top"
-                        >
-                        <LinearLayout
-                            android:background="@drawable/tv_home_item"
-                            android:padding="10dp"
-                            android:layout_gravity="center|top"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/ic_home"
-
-                                />
-                        </LinearLayout>
-
-                        <TextView
-                            android:textSize="12sp"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom|center"
-                            android:text="Tour du lịch"
-                            android:textColor="#d2d2d2" />
-
-
-                    </FrameLayout>
-                    <FrameLayout
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="15dp"
-                        android:background="@drawable/tv_home_top"
-                        >
-                        <LinearLayout
-                            android:background="@drawable/tv_home_item"
-                            android:padding="10dp"
-                            android:layout_gravity="center|top"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/ic_home"
-
-                                />
-                        </LinearLayout>
-
-                        <TextView
-                            android:textSize="12sp"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom|center"
-                            android:text="CH gần bạn"
-                            android:textColor="#d2d2d2" />
-
-
-                    </FrameLayout>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    android:orientation="horizontal"
-                    android:weightSum="3"
-                    >
-                    <FrameLayout
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="15dp"
-                        android:background="@drawable/tv_home_top"
-                        >
-                        <LinearLayout
-                            android:background="@drawable/tv_home_item"
-                            android:padding="10dp"
-                            android:layout_gravity="center|top"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/ic_home"
-
-                                />
-                        </LinearLayout>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom|center"
-                            android:text="Khuyến mãi"
-                            android:textColor="#d2d2d2"
-                            android:textSize="12sp" />
-
-
-                    </FrameLayout>
-                    <FrameLayout
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="15dp"
-                        android:background="@drawable/tv_home_top"
-                        >
-                        <LinearLayout
-                            android:background="@drawable/tv_home_item"
-                            android:padding="10dp"
-                            android:layout_gravity="center|top"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/ic_home"
-
-                                />
-                        </LinearLayout>
-
-                        <TextView
-                            android:textSize="12sp"
-                            android:textColor="#d2d2d2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom|center"
-                            android:text="ADS" />
-
-
-                    </FrameLayout>
-                    <FrameLayout
-                        android:layout_margin="10dp"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="15dp"
-                        >
-                    </FrameLayout>
-                </LinearLayout>
-            </LinearLayout>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Quảng cáo"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
-                android:textSize="20sp"
-                android:textColor="#929292"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
             <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/actMenu_fragHome_rvGridHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+            </androidx.recyclerview.widget.RecyclerView>
+        </FrameLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Quảng cáo"
+            android:textColor="#929292"
+            android:textSize="20sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/actMenu_fragHome_rvAd">
@@ -364,3 +72,312 @@
 
         </LinearLayout>
 </ScrollView>
+
+<!--<LinearLayout-->
+<!--android:layout_marginTop="30dp"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:orientation="vertical"-->
+<!--    >-->
+
+<!--<LinearLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="120dp"-->
+<!--    android:orientation="horizontal"-->
+<!--    android:weightSum="3">-->
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:background="@drawable/tv_home_top"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="15dp">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center|top"-->
+<!--            android:background="@drawable/tv_home_item"-->
+<!--            android:padding="10dp">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/ic_home"-->
+
+<!--                />-->
+<!--        </LinearLayout>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="bottom|center"-->
+<!--            android:text="Việc làm"-->
+<!--            android:textColor="#d2d2d2"-->
+<!--            android:textSize="12sp" />-->
+
+
+<!--    </FrameLayout>-->
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:background="@drawable/tv_home_top"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="15dp">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center|top"-->
+<!--            android:background="@drawable/tv_home_item"-->
+<!--            android:padding="10dp">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/ic_home"-->
+
+<!--                />-->
+<!--        </LinearLayout>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="bottom|center"-->
+<!--            android:text="Xe cộ"-->
+<!--            android:textColor="#d2d2d2"-->
+<!--            android:textSize="12sp" />-->
+
+
+<!--    </FrameLayout>-->
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:background="@drawable/tv_home_top"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="15dp">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center|top"-->
+<!--            android:background="@drawable/tv_home_item"-->
+<!--            android:padding="10dp">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/ic_home"-->
+
+<!--                />-->
+<!--        </LinearLayout>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="bottom|center"-->
+<!--            android:text="Bất động sản"-->
+<!--            android:textColor="#d2d2d2"-->
+<!--            android:textSize="12sp" />-->
+
+
+<!--    </FrameLayout>-->
+<!--</LinearLayout>-->
+
+<!--<LinearLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="120dp"-->
+<!--    android:orientation="horizontal"-->
+<!--    android:weightSum="3"-->
+<!--    >-->
+<!--    <FrameLayout-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="15dp"-->
+<!--        android:background="@drawable/tv_home_top"-->
+<!--        >-->
+<!--        <LinearLayout-->
+<!--            android:background="@drawable/tv_home_item"-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_gravity="center|top"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/ic_home"-->
+
+<!--                />-->
+<!--        </LinearLayout>-->
+
+<!--        <TextView-->
+<!--            android:textSize="12sp"-->
+<!--            android:textColor="#d2d2d2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="bottom|center"-->
+<!--            android:text="Làm đẹp" />-->
+
+
+<!--    </FrameLayout>-->
+<!--    <FrameLayout-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="15dp"-->
+<!--        android:background="@drawable/tv_home_top"-->
+<!--        >-->
+<!--        <LinearLayout-->
+<!--            android:background="@drawable/tv_home_item"-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_gravity="center|top"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/ic_home"-->
+
+<!--                />-->
+<!--        </LinearLayout>-->
+
+<!--        <TextView-->
+<!--            android:textSize="12sp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="bottom|center"-->
+<!--            android:text="Tour du lịch"-->
+<!--            android:textColor="#d2d2d2" />-->
+
+
+<!--    </FrameLayout>-->
+<!--    <FrameLayout-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="15dp"-->
+<!--        android:background="@drawable/tv_home_top"-->
+<!--        >-->
+<!--        <LinearLayout-->
+<!--            android:background="@drawable/tv_home_item"-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_gravity="center|top"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/ic_home"-->
+
+<!--                />-->
+<!--        </LinearLayout>-->
+
+<!--        <TextView-->
+<!--            android:textSize="12sp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="bottom|center"-->
+<!--            android:text="CH gần bạn"-->
+<!--            android:textColor="#d2d2d2" />-->
+
+
+<!--    </FrameLayout>-->
+<!--</LinearLayout>-->
+<!--<LinearLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="120dp"-->
+<!--    android:orientation="horizontal"-->
+<!--    android:weightSum="3"-->
+<!--    >-->
+<!--    <FrameLayout-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="15dp"-->
+<!--        android:background="@drawable/tv_home_top"-->
+<!--        >-->
+<!--        <LinearLayout-->
+<!--            android:background="@drawable/tv_home_item"-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_gravity="center|top"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/ic_home"-->
+
+<!--                />-->
+<!--        </LinearLayout>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="bottom|center"-->
+<!--            android:text="Khuyến mãi"-->
+<!--            android:textColor="#d2d2d2"-->
+<!--            android:textSize="12sp" />-->
+
+
+<!--    </FrameLayout>-->
+<!--    <FrameLayout-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="15dp"-->
+<!--        android:background="@drawable/tv_home_top"-->
+<!--        >-->
+<!--        <LinearLayout-->
+<!--            android:background="@drawable/tv_home_item"-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_gravity="center|top"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/ic_home"-->
+
+<!--                />-->
+<!--        </LinearLayout>-->
+
+<!--        <TextView-->
+<!--            android:textSize="12sp"-->
+<!--            android:textColor="#d2d2d2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="bottom|center"-->
+<!--            android:text="ADS" />-->
+
+
+<!--    </FrameLayout>-->
+<!--    <FrameLayout-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="15dp"-->
+<!--        >-->
+<!--    </FrameLayout>-->
+<!--</LinearLayout>-->
+<!--</LinearLayout>-->
