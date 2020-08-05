@@ -7,6 +7,7 @@ import androidx.viewpager2.widget.ViewPager2;
 import android.os.Bundle;
 
 import com.example.demohunegroup.R;
+import com.google.android.material.badge.BadgeDrawable;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
@@ -61,14 +62,14 @@ public class MenuActivity extends AppCompatActivity {
         );
         tabLayoutMediator.attach();
 
-//        viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
-//            @Override
-//            public void onPageSelected(int position) {
-//                super.onPageSelected(position);
-//                BadgeDrawable badgeDrawable = tabLayout.getTabAt(position).getOrCreateBadge();
-//                badgeDrawable.setVisible(false);
-//            }
-//        });
+        viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
+            @Override
+            public void onPageSelected(int position) {
+                super.onPageSelected(position);
+                BadgeDrawable badgeDrawable = tabLayout.getTabAt(position).getOrCreateBadge();
+                badgeDrawable.setVisible(false);
+            }
+        });
     }
 
 

@@ -3,6 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
 
+
+    <attr android:name="selectableItemBackground" android:format="reference" />
     <!-- Set màu nền-->
     <solid
         android:color="#45a0d9" >

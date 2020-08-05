@@ -15,6 +15,7 @@ import com.example.demohunegroup.R;
 import java.util.ArrayList;
 
 import com.example.demohunegroup.item.ItemRedeemPoint;
+import com.example.demohunegroup.iterface.ItemButtonBuyInterface;
 import com.example.demohunegroup.iterface.ItemRedeemPointInterface;
 
 public class RedeemCouponAdapter extends RecyclerView.Adapter<RedeemCouponAdapter.NewViewHolder> {
@@ -26,6 +27,11 @@ public class RedeemCouponAdapter extends RecyclerView.Adapter<RedeemCouponAdapte
 
     public void setItemRedeemPointInterface(ItemRedeemPointInterface itemRedeemPointInterface) {
         this.itemRedeemPointInterface = itemRedeemPointInterface;
+    }
+    private ItemButtonBuyInterface itemButtonBuyInterface;
+
+    public void setItemButtonBuyInterface(ItemButtonBuyInterface itemButtonBuyInterface) {
+        this.itemButtonBuyInterface = itemButtonBuyInterface;
     }
 
     private ItemRedeemPointInterface itemRedeemPointInterface;
@@ -56,6 +62,7 @@ public class RedeemCouponAdapter extends RecyclerView.Adapter<RedeemCouponAdapte
         TextView tvBuy;
         LinearLayout linearLayout;
 
+
         public NewViewHolder(@NonNull View itemView) {
             super(itemView);
             tvTitle = itemView.findViewById(R.id.fragRedeem_tvTitle);
@@ -68,7 +75,14 @@ public class RedeemCouponAdapter extends RecyclerView.Adapter<RedeemCouponAdapte
             linearLayout.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    if (itemRedeemPointInterface != null) itemRedeemPointInterface.itemClicked(getAdapterPosition());
+                    if (itemRedeemPointInterface != null) itemRedeemPointInterface.itemClicked(getLayoutPosition());
+                }
+            });
+
+            tvBuy.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (itemButtonBuyInterface != null) itemButtonBuyInterface.itemButtonClicked(v,getLayoutPosition());
                 }
             });
         }

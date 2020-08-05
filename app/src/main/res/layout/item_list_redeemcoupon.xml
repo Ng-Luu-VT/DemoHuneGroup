@@ -6,7 +6,8 @@
     android:layout_height="wrap_content"
     android:id="@+id/fragRedeem_linearLayoutTotal"
     android:padding="10dp"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?android:attr/selectableItemBackground">
 
     <ImageView
 
